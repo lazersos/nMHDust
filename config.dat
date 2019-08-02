@@ -1,0 +1,331 @@
+ 739                     NX
+ 7                       NY
+ 389                     NZ
+ 1                       Codetype (0: DENISIS; 1: nMHDust)
+ 800000                  Number of timesteps (must be even)
+ 200000                  Timestep of Outputs (must be even)
+ 0.0004                  dt
+ 0                       div(B) Solver (0=off;1=on)
+ 5000                    Moive Frame Interval
+ 0                       Electron Continuity (0=no;1=yes)
+ 0                       Ballistic Relaxation (0=no;1=yes)
+ 30000                   Last Timestep for Ballistic Relaxation
+ 0                       Smoothing (0=no;1=yes)
+ 0.00002                 visx (Artificial Viscosity)
+ 0.00002                 visy (Artificial Viscosity)
+ 0.00002                 visz (Artificial Viscosity)
+ 0                       Dynamic nude (0=no;1=yes)
+ 0                       Dynamic nudi (0=no;1=yes)
+ 0                       Dynamic nuie (0=no;1=yes)
+ 0                       Dynamic nudn (0=no;1=yes)
+ 0                       Dynamic nuin (0=no;1=yes)
+ 0                       Dynamic nuen (0=no;1=yes)
+ 1.666667                Gamma Dust
+ 1.666667                Gamma Ions
+ 1.000000                Gamma Electrons
+ 1.666667                Gamma Neutrals
+ -8.75                   Xmin
+  8.75                   Xmax
+ -0.6                    Ymin
+  0.6                    Ymax
+  0.00                   Zmin
+ 30.0                    Zmax
+  1.6                    Dust Density
+ -1.0                    Z_d
+ 16.0			 Dust Mass
+ 9.0                     Ion Density
+ 1.0                     Z_i
+ 1.0                     Ion Mass
+ 1.0                     Neutral Density
+ 1.0                     Neutral Mass
+ 0.0                     Bx0
+ 1.0                     By0
+ 0.0                     Bz0
+ 0.01                    Vx0
+ 0.0                     Vy0
+ 0.145                   Vz0
+ 0.01                    Vix0
+ 0.0                     Viy0
+ 0.145                   Viz0
+ 0.01                    Vnx0
+ 0.0                     Vny0
+ 0.145                   Vnz0
+ 0.0                     nuid0
+ 0.0                     nuie0
+ 0.0                     nude0
+ 0.0                     nudn0
+ 0.0                     nuin0
+ 0.0                     nuen0
+ 0.0                     Ionization
+ 0.0                     Recombination
+ 1                       X-Equidisdant  (0=no,1=yes)
+ 1                       Y-Equidistant  (0=no,1=yes)
+ 1                       Z-Equidistant  (0=no,1=yes)
+ 1                       dx_min Location  (0=xmin,1=(xmax/xmin)/2,2=xmax)
+ 1                       dy_min Location  (0=ymin,1=(ymax/ymin)/2,2=ymax)
+ 1                       dz_min Location  (0=zmin,1=(zmax/zmin)/2,2=zmax)
+ 0.01                    dx_min
+ 0.1                     dy_min
+ 0.01                    dz_min
+===========================BC Block======================================
+ 1                       X-Periodic (0=no,1=yes,2=timedep)
+ 1                       Y-Periodic (0=no,1=yes,2=timedep)
+ 1                       Z-Periodic (0=no,1=yes,2=timedep)
+============================X-Min========================================
+ 1                       krho
+ 1                       krhoi
+ 1                       krhoe
+ 1                       krhon
+ 1                       kp
+ 1                       kpi
+ 1                       kpe
+ 1                       kpn
+ 1                       kbx
+ 1                       kby
+ 1                       kbz
+ 1                       ksx
+ 1                       ksy
+ 1                       ksz
+ 0                       arho
+ 0                       arhoi
+ 0                       arhoe
+ 0                       arhon
+ 0                       ap
+ 0                       api
+ 0                       ape
+ 0                       apn
+ 0                       abx
+ 0                       aby
+ 0                       abz
+ 0                       asx
+ 0                       asy
+ 0                       asz
+ 0.                       drho
+ 0.                       drhoi
+ 0.                       drhoe
+ 0.                       drhon
+ 0.                       dp
+ 0.                       dpi
+ 0.                       dpe
+ 0.                       dpn
+ 0.                       dbx
+ 0.                       dby
+ 0.                       dbz
+ 0.                       dsx
+ 0.                       dsy
+ 0.                       dsz
+============================X-Max========================================
+ 1                       krho
+ 1                       krhoi
+ 1                       krhoe
+ 1                       krhon
+ 1                       kp
+ 1                       kpi
+ 1                       kpe
+ 1                       kpn
+ 1                       kbx
+ 1                       kby
+ 1                       kbz
+ 1                       ksx
+ 1                       ksy
+ 1                       ksz
+ 0                       arho
+ 0                       arhoi
+ 0                       arhoe
+ 0                       arhon
+ 0                       ap
+ 0                       api
+ 0                       ape
+ 0                       apn
+ 0                       abx
+ 0                       aby
+ 0                       abz
+ 0                       asx
+ 0                       asy
+ 0                       asz
+ 0.                       drho
+ 0.                       drhoi
+ 0.                       drhoe
+ 0.                       drhon
+ 0.                       dp
+ 0.                       dpi
+ 0.                       dpe
+ 0.                       dpn
+ 0.                       dbx
+ 0.                       dby
+ 0.                       dbz
+ 0.                       dsx
+ 0.                       dsy
+ 0.                       dsz
+============================Y-Min========================================
+ 1                       krho
+ 1                       krhoi
+ 1                       krhoe
+ 1                       krhon
+ 1                       kp
+ 1                       kpi
+ 1                       kpe
+ 1                       kpn
+ 1                       kbx
+ 1                       kby
+ 1                       kbz
+ 1                       ksx
+ 1                       ksy
+ 1                       ksz
+ 0                       arho
+ 0                       arhoi
+ 0                       arhoe
+ 0                       arhon
+ 0                       ap
+ 0                       api
+ 0                       ape
+ 0                       apn
+ 0                       abx
+ 0                       aby
+ 0                       abz
+ 0                       asx
+ 0                       asy
+ 0                       asz
+ 0.                       drho
+ 0.                       drhoi
+ 0.                       drhoe
+ 0.                       drhon
+ 0.                       dp
+ 0.                       dpi
+ 0.                       dpe
+ 0.                       dpn
+ 0.                       dbx
+ 0.                       dby
+ 0.                       dbz
+ 0.                       dsx
+ 0.                       dsy
+ 0.                       dsz
+============================Y-Max========================================
+ 1                       krho
+ 1                       krhoi
+ 1                       krhoe
+ 1                       krhon
+ 1                       kp
+ 1                       kpi
+ 1                       kpe
+ 1                       kpn
+ 1                       kbx
+ 1                       kby
+ 1                       kbz
+ 1                       ksx
+ 1                       ksy
+ 1                       ksz
+ 0                       arho
+ 0                       arhoi
+ 0                       arhoe
+ 0                       arhon
+ 0                       ap
+ 0                       api
+ 0                       ape
+ 0                       apn
+ 0                       abx
+ 0                       aby
+ 0                       abz
+ 0                       asx
+ 0                       asy
+ 0                       asz
+ 0.                       drho
+ 0.                       drhoi
+ 0.                       drhoe
+ 0.                       drhon
+ 0.                       dp
+ 0.                       dpi
+ 0.                       dpe
+ 0.                       dpn
+ 0.                       dbx
+ 0.                       dby
+ 0.                       dbz
+ 0.                       dsx
+ 0.                       dsy
+ 0.                       dsz
+============================Z-Min========================================
+ 1                       krho
+ 1                       krhoi
+ 1                       krhoe
+ 1                       krhon
+ 1                       kp
+ 1                       kpi
+ 1                       kpe
+ 1                       kpn
+ 1                       kbx
+ 1                       kby
+ 1                       kbz
+ 1                       ksx
+ 1                       ksy
+ -1                       ksz
+ 0                       arho
+ 0                       arhoi
+ 0                       arhoe
+ 0                       arhon
+ 0                       ap
+ 0                       api
+ 0                       ape
+ 0                       apn
+ 0                       abx
+ 0                       aby
+ 0                       abz
+ 0                       asx
+ 0                       asy
+ 0                       asz
+ 0.                       drho
+ 0.                       drhoi
+ 0.                       drhoe
+ 0.                       drhon
+ 0.                       dp
+ 0.                       dpi
+ 0.                       dpe
+ 0.                       dpn
+ 0.                       dbx
+ 0.                       dby
+ 0.                       dbz
+ 0.                       dsx
+ 0.                       dsy
+ 0.                       dsz
+============================Z-Max========================================
+ 1                       krho
+ 1                       krhoi
+ 1                       krhoe
+ 1                       krhon
+ 1                       kp
+ 1                       kpi
+ 1                       kpe
+ 1                       kpn
+ 1                       kbx
+ 1                       kby
+ 1                       kbz
+ 1                       ksx
+ 1                       ksy
+ -1                       ksz
+ 0                       arho
+ 0                       arhoi
+ 0                       arhoe
+ 0                       arhon
+ 0                       ap
+ 0                       api
+ 0                       ape
+ 0                       apn
+ 0                       abx
+ 0                       aby
+ 0                       abz
+ 0                       asx
+ 0                       asy
+ 0                       asz
+ 0.                       drho
+ 0.                       drhoi
+ 0.                       drhoe
+ 0.                       drhon
+ 0.                       dp
+ 0.                       dpi
+ 0.                       dpe
+ 0.                       dpn
+ 0.                       dbx
+ 0.                       dby
+ 0.                       dbz
+ 0.                       dsx
+ 0.                       dsy
+ 0.                       dsz
